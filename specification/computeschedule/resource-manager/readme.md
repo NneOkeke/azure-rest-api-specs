@@ -27,7 +27,16 @@ These are the global settings for the computeschedule.
 ```yaml
 openapi-subtype: rpaas
 openapi-type: arm
-tag: package-2024-06-01-preview
+tag: package-preview-2024-08
+```
+
+### Tag: package-preview-2024-08
+
+These settings apply only when `--tag=package-preview-2024-08` is specified on the command line.
+
+```yaml $(tag) == 'package-preview-2024-08'
+input-file:
+  - Microsoft.ComputeSchedule/preview/2024-08-15-preview/computeschedule.json
 ```
 
 ### Tag: package-2024-06-01-preview

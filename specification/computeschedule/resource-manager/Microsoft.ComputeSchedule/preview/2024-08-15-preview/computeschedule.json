@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Microsoft.ComputeSchedule",
-    "version": "2024-06-01-preview",
+    "version": "2024-08-15-preview",
     "description": "Microsoft.ComputeSchedule Resource Provider management API.",
     "x-typespec-generated": [
       {
@@ -1347,3 +1347,4 @@
   },
   "parameters": {}
 }
+

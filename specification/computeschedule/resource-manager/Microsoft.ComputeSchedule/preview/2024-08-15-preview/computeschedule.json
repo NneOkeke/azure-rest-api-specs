@@ -878,7 +878,6 @@
         },
         "errorDetails": {
           "type": "string",
-          "format": "date-time",
           "description": "The error details of the operation"
         },
         "timeStamp": {

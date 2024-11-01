@@ -108,7 +108,7 @@ alias Params = {
 model Schedule {
   #suppress "@azure-tools/typespec-azure-core/no-offsetdatetime" "Prefer using `utcDateTime` when representing a datetime unless an offset is necessary."
   @doc("The deadline for the operation")
-  deadLine: offsetDateTime;
+  deadline: offsetDateTime;
 
   @doc("The timezone for the operation")
   timeZone: string;
@@ -213,10 +213,10 @@ model OperationErrorDetails {
   errorDetails: string;
 
   @doc("The timestamp of the error occurence")
-  timeStamp: offsetDateTime;
+  timestamp: offsetDateTime;
 
   @doc("CRP operationid of the operation for deeper analysis")
-  crpOperationId: string;
+  crpOperationId?: string;
 }
 
 #suppress "@azure-tools/typespec-azure-core/no-offsetdatetime" "Prefer using `utcDateTime` when representing a datetime unless an offset is necessary."

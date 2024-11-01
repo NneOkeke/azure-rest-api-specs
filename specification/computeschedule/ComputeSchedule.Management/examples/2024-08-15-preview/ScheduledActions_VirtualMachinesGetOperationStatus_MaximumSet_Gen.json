@@ -4,7 +4,7 @@
   "parameters": {
     "api-version": "2024-08-15-preview",
     "subscriptionId": "DE84A209-5715-43E7-BC76-3E208A9A82C5",
-    "locationparameter": "htxxasfxaesuecem",
+    "locationparameter": "ocssno",
     "requestBody": {
       "operationIds": [
         "01080d2f-1dca-4610-afb4-dd25eec1f3df"
@@ -17,26 +17,26 @@
       "body": {
         "results": [
           {
-            "resourceId": "/subscriptions/YourSubscriptionId/resourceGroups/YourResourceGroupName/providers/Microsoft.Compute/virtualMachines/testResource3",
-            "errorCode": "ipyvwgk",
-            "errorDetails": "dfegatwcb",
+            "resourceId": "gbtplqubqlz",
+            "errorCode": "rpfxrrrhutdtlcaapczlziypmuieh",
+            "errorDetails": "jlccukpvw",
             "operation": {
-              "operationId": "brvr",
-              "resourceId": "/subscriptions/YourSubscriptionId/resourceGroups/YourResourceGroupName/providers/Microsoft.Compute/virtualMachines/testResource3",
+              "operationId": "dgbirzzwzibycybasdksfezzelamh",
+              "resourceId": "/subscriptions/YourSubscriptionId/resourceGroups/YourResourceGroupName/providers/Microsoft.Compute/virtualMachines/testResource1",
               "opType": "Unknown",
-              "subscriptionId": "l",
-              "deadline": "2024-08-08T19:00:13.928Z",
+              "subscriptionId": "rerkhskwjok",
+              "deadline": "2024-11-01T12:41:27.782Z",
               "deadlineType": "Unknown",
               "state": "Unknown",
-              "timeZone": "ggsopagtvrtsjltyyccqgufgm",
+              "timeZone": "docdhsxzqltwynnoyvyagt",
               "resourceOperationError": {
-                "errorCode": "ryxlbd",
-                "errorDetails": "vdwoj"
+                "errorCode": "uqa",
+                "errorDetails": "xgvcexdgnogqvtb"
               },
-              "completedAt": "2024-08-08T19:00:13.928Z",
+              "completedAt": "2024-11-01T12:41:27.782Z",
               "retryPolicy": {
-                "retryCount": 5,
-                "retryWindowInMinutes": 17
+                "retryCount": 8,
+                "retryWindowInMinutes": 24
               }
             }
           }

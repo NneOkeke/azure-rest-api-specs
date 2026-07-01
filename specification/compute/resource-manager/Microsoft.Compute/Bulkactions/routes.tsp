@@ -277,6 +277,10 @@ interface VirtualMachineBulkOperations {
     @query
     @doc("A continuation token to retrieve the next page of results.")
     continuationToken?: string,
+
+    @query
+    @doc("The time window in minutes to look back for errors. Only errors that completed within this window are returned. Maximum value is capped by the server-side retention policy.")
+    lookbackInMinutes?: int32,
   ): ArmResponse<ListBulkOperationErrorsResponse> | ErrorResponse;
 
   /** BulkAcknowledgeOperationErrors: Acknowledge bulk operation errors for a resource group */

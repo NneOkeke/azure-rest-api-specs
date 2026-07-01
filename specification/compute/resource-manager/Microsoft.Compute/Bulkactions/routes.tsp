@@ -255,7 +255,7 @@ interface VirtualMachineBulkOperations {
   /** BulkListOperationErrors: List bulk operation errors for a resource group */
   @added(Versions.`2026-07-06-preview`)
   #suppress "@azure-tools/typespec-azure-resource-manager/arm-resource-operation" "RG-scoped nested route not supported by @action"
-  @route("/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/locations/{location}/virtualMachines/bulkOperationErrors")
+  @route("/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/locations/{location}/virtualMachines/listBulkOperationErrors")
   @get
   bulkListOperationErrors(
     ...Azure.ResourceManager.Foundations.ApiVersionParameter,
@@ -286,7 +286,7 @@ interface VirtualMachineBulkOperations {
   /** BulkAcknowledgeOperationErrors: Acknowledge bulk operation errors for a resource group */
   @added(Versions.`2026-07-06-preview`)
   #suppress "@azure-tools/typespec-azure-resource-manager/arm-resource-operation" "RG-scoped nested route not supported by @action"
-  @route("/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/locations/{location}/virtualMachines/bulkOperationErrors/acknowledge")
+  @route("/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/locations/{location}/virtualMachines/acknowledgeBulkOperationErrors")
   @post
   bulkAcknowledgeOperationErrors(
     ...Azure.ResourceManager.Foundations.ApiVersionParameter,
